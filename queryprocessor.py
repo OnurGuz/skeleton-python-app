@@ -19,4 +19,3 @@ def process_query(query):
 		return "Sean Connery"
 
 	return ""
-,%2083,%20831,%204
