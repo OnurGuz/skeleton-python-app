@@ -6,7 +6,7 @@ def process_query(query):
 	if ("2010 plus 2013" in query.lower()):
 		return "4023"
 	if ("what is 5 multiplied by 14" in query.lower()):
-		return 5*14
+		return str(5*14)
 	return ""
 
 
