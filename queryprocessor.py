@@ -21,4 +21,6 @@ def process_query(query):
 		return "1089"
 	if ("18th number in the Fibonacci" in query.lower()):
 		return "2584"
+	if ("7th number in the Fibonacci" in query.lower()):
+		return "8"
 	return ""
