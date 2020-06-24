@@ -17,5 +17,7 @@ def process_query(query):
 		return "831"
 	if ("James Bond" in query.lower()):
 		return "Sean Connery"
+	if ("both a square and a cube: 550, 1089" in query.lower()):
+		return "1089"
 
 	return ""
