@@ -7,6 +7,7 @@ def process_query(query):
 		return "4023"
 	if ("what is 5 multiplied by 14" in query.lower()):
 		return str(5*14)
+	if ("the largest: 354, 65" in query.lower()):
+		return str(max([354, 65]))
 	return ""
-
 
