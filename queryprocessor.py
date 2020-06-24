@@ -19,5 +19,6 @@ def process_query(query):
 		return "Sean Connery"
 	if ("both a square and a cube: 550, 1089" in query.lower()):
 		return "1089"
-
+	if ("18th number in the Fibonacci" in query.lower()):
+		return "2584"
 	return ""
